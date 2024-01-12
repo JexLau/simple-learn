@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Day1</title>
-  <style>
-    .box {
-      display: block;
-      color: red;
-      background-color: blue;
-      text-align: right;
-      width: 300px;
-      margin: 20px;
-    }
-    #xx {
-      display: inline-block;
-      color: blue;
-      background-color: red;
-      text-align: center;
-      width: 500px;
-    }
-    div {
-      display: inline-block;
-      color: green;
-      background-color: yellow;
-      text-align: left;
-      width: 100px;
-    }
-  </style>
-  
-</head>
-<body>
-  <!-- 基础css 作业要求:
-  1. 用css实现如下效果: 
-  盒子1用class选择器, 改变字体颜色为红色, 背景颜色为蓝色, 文本居右, 宽度为300px, 外边距为20px
-  盒子2用id选择器, 改变字体颜色为蓝色, 背景颜色为红色, 文本居中, 宽度为500px, 
-  盒子3用标签选择器, 改变字体颜色为绿色, 背景颜色为黄色, 文本居左, 宽度为100px, 且紧跟在盒子2后面
-  -->
-  <div class="box">盒子1</div>
-  <div id="xx">盒子2</div>
 
-  <div>盒子3</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            display: block;
+            color: red;
+            background-color: blue;
+            text-align: right;
+            width: 300px;
+            margin: 20px;
+        }
+
+        #box2 {
+            display: inline-block;
+            color: blue;
+            background-color: red;
+            text-align: center;
+            width: 500px;
+        }
+
+        div {
+            display: inline-block;
+            color: green;
+            background-color: yellow;
+            text-align: left;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">盒子1</div>
+    <div id="box2">盒子2</div>
+    <div>盒子3</div>
 </body>
+
 </html>
